@@ -1,10 +1,14 @@
 class stringEditor:
-    def getString(a):
-        a = input()
+    def __init__(self):
+        self.mystring = ""
 
-    def printString(a):
-        print(a.upper())
+    def getString(self):
+        self.mystring = input()
 
-editor = stringEditor()
-editor.getString()
-editor.printString()
+    def printString(self):
+        print(self.mystring.upper())
+
+Myclass = stringEditor
+Myclass.getString()
+Myclass.printString()
+
