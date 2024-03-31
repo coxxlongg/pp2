@@ -9,7 +9,7 @@ black = (0, 0, 0)
 fps = 60
 
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Paint")
+pygame.display.set_caption("paint")
 clock = pygame.time.Clock()
 
 active_figure = 0
@@ -72,3 +72,4 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+
