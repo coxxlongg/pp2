@@ -145,7 +145,7 @@ while True:
         coins.add(new_coin)
         all_sprites.add(new_coin)
 
-    # To be run if collision occurs between Player and Enemy
+    # run if collision occurs between Player and Enemy
     if pygame.sprite.spritecollideany(P1, enemies):
         pygame.mixer.Sound('media/crash.wav').play()
         time.sleep(0.5)

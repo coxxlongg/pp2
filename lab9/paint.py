@@ -4,13 +4,11 @@ import math  # Import the math library for mathematical operations
 # Initialize pygame
 pygame.init()
 
-# Set frames per second
 fps = 60
 
 # Create a clock object to control the frame rate
 timer = pygame.time.Clock()
 
-# Set the width and height of the screen
 WIDTH = 800
 HEIGHT = 600
 
